@@ -42,5 +42,20 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Nexii is a company surfaced via the API Evangelist harvest backlog (source: secondary-market) and added to the network as a stub for full-pipeline profiling.
+Nexii is a green construction technology company that designs and manufactures prefabricated wall and
+roof panel systems for commercial and industrial buildings, made from Nexiite — a proprietary low-carbon
+building material the company says is up to 80% lighter than conventional concrete. Panels bolt together
+on site, cutting build times and producing near-zero construction waste, across retail, residential,
+warehouse, data center, cold storage, healthcare, office and education verticals.
+
+The original Vancouver-based Nexii Building Solutions entered creditor protection in January 2024.
+Dallas-based 3 Gates acquired its assets in a court-approved sale completed 28 June 2024 and relaunched
+the business as NEXII, Inc., headquartered in Dallas, Texas with manufacturing in Squamish, British
+Columbia; Nucor Corporation later made a strategic equity investment.
+
+**API surface: none.** Nexii is a manufacturer, not a software vendor. `www.nexii.com` publishes no
+developer portal, API reference, or machine-readable contract, and `api.`/`developer.`/`docs.nexii.com`
+do not resolve. See the `x-coverage` block in `apis.yml` for the probed evidence.
+
+- https://www.nexii.com/
 - https://forgeglobal.com/nexii_stock/

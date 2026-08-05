@@ -1,8 +1,21 @@
 aid: nexii
 name: Nexii
-description: 'Nexii is a company surfaced via the API Evangelist harvest backlog (source: secondary-market)
-  and added to the network as a stub for full-pipeline profiling.'
+description: 'Nexii is a green construction technology company that designs and manufactures
+  prefabricated wall and roof panel systems for commercial and industrial buildings.
+  Its panels are made from Nexiite, a proprietary low-carbon building material the
+  company says is up to 80% lighter than conventional concrete, and bolt together on
+  site to cut build times by as much as five times while producing near-zero construction
+  waste. Nexii serves retail, residential, warehouse, data center, cold storage, healthcare,
+  office and education verticals, with projects for Starbucks, McDonald''s, Pizza Hut,
+  Popeyes, Dutch Bros, Walmart and Marriott. The original Vancouver-based Nexii Building
+  Solutions entered creditor protection in January 2024; Dallas-based 3 Gates acquired
+  its assets in a court-approved sale completed 28 June 2024 and relaunched the business
+  as NEXII, Inc., headquartered in Dallas, Texas with manufacturing in Squamish, British
+  Columbia. Nucor Corporation subsequently made a strategic equity investment. Nexii
+  is a manufacturer, not a software vendor: it publishes no developer portal, API
+  documentation, or machine-readable API contract.'
 url: https://raw.githubusercontent.com/api-evangelist/nexii/refs/heads/main/apis.yml
+image: https://cdn.prod.website-files.com/67b3630fc38baa7c9cc153ff/67c5cc70a876f4a2d84fd323_Nexii_OG.png
 x-type: company
 x-source: harvest:secondary-market
 x-tier: stub
@@ -12,6 +25,13 @@ created: '2026-08-04'
 modified: '2026-08-04'
 tags:
 - Company
+- Construction
+- Building Materials
+- Green Building
+- Sustainability
+- Manufacturing
+- Prefabrication
+- Real Estate
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -19,5 +39,49 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/nexii-domain-security.yml
 - type: Website
+  url: https://www.nexii.com/
+- type: About
+  url: https://www.nexii.com/about
+- type: Blog
+  url: https://www.nexii.com/news
+- type: Support
+  url: https://www.nexii.com/contact
+- type: PrivacyPolicy
+  url: https://www.nexii.com/privacy-policy
+- type: TermsOfService
+  url: https://www.nexii.com/terms-of-service
+- type: Resources
+  url: https://www.nexii.com/resources
+- type: Careers
+  url: https://nexii.bamboohr.com/careers
+- type: LinkedIn
+  url: https://ca.linkedin.com/company/nexii-building-solutions
+- type: SecondaryMarket
   url: https://forgeglobal.com/nexii_stock/
+x-enrichment:
+  date: '2026-08-04'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
+x-coverage:
+  state: none
+  reason: not-a-software-company
+  detail: Nexii manufactures prefabricated Nexiite wall and roof panels for commercial
+    construction; www.nexii.com is a marketing site whose entire sitemap is verticals,
+    project case studies, PDF resources and news, with no developer, API or documentation
+    section, and api./developer./docs.nexii.com do not resolve.
+  evidence:
+  - url: https://www.nexii.com/sitemap.xml
+    status: 200
+  - url: https://www.nexii.com/developers
+    status: 404
+  - url: https://www.nexii.com/openapi.json
+    status: 404
+  - url: https://www.nexii.com/.well-known/agent-card.json
+    status: 404
+  - url: https://api.nexii.com/
+    status: 0
+  checked: '2026-08-04'
