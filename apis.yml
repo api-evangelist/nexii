@@ -15,6 +15,17 @@ description: 'Nexii is a green construction technology company that designs and 
   is a manufacturer, not a software vendor: it publishes no developer portal, API
   documentation, or machine-readable API contract.'
 url: https://raw.githubusercontent.com/api-evangelist/nexii/refs/heads/main/apis.yml
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 image: https://cdn.prod.website-files.com/67b3630fc38baa7c9cc153ff/67c5cc70a876f4a2d84fd323_Nexii_OG.png
 x-type: company
 x-source: harvest:secondary-market
