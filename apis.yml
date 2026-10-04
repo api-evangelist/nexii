@@ -54,7 +54,7 @@ tags:
 - Sustainability
 - Manufacturing
 - Prefabrication
-- Real-Estate
+- Real Estate
 tags_raw:
 - Company
 - Construction
@@ -64,6 +64,7 @@ tags_raw:
 - Manufacturing
 - Prefabrication
 - Real Estate
+- Real-Estate
 apis: []
 maintainers:
 - FN: Kin Lane
